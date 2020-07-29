@@ -19,7 +19,7 @@ export function index(){
             </span>
         </span>
         <span class="version" id="versionLog"><a href="wiki.html#changelog" target="_blank"></a></span>
-        <span class="right has-text-warning"><a href="https://github.com/TMVictor/Evolve-Scripting-Edition/blob/master/README.md" target="_blank">Why scripting edition?</a></span>
+        <span class="right has-text-warning"><a href="https://github.com/TMVictor/Evolve-Scripting-Edition/blob/master/README.md" target="_blank">Why scripting11111 edition?</a></span>
     </div>`);
 
     let main = $(`<div id="main" class="main"></div>`);

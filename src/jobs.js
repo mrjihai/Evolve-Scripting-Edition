@@ -168,23 +168,23 @@ export const job_desc = {
 export function defineJobs(){
     $('#civics').append($(`<h2 class="is-sr-only">${loc('civics_jobs')}</h2><div class="tile is-child"><div id="jobs" class="tile is-child"></div><div id="foundry" class="tile is-child"></div></div>`));
     loadUnemployed();
-    loadJob('farmer',0.82,5);
-    loadJob('lumberjack',1,5);
-    loadJob('quarry_worker',1,5);
-    loadJob('scavenger',0.12,5);
-    loadJob('miner',1,4,'advanced');
-    loadJob('coal_miner',0.2,4,'advanced');
-    loadJob('craftsman',1,5,'advanced');
-    loadJob('cement_worker',0.4,5,'advanced');
-    loadJob('entertainer',1,10,'advanced');
-    loadJob('priest',1,3,'advanced');
-    loadJob('professor',0.5,6,'advanced');
-    loadJob('scientist',1,5,'advanced');
-    loadJob('banker',0.1,6,'advanced');
-    loadJob('colonist',1,5,'advanced');
-    loadJob('space_miner',1,5,'advanced');
-    loadJob('hell_surveyor',1,1,'advanced');
-    loadJob('crew',1,4,'alert');
+    loadJob('farmer',4.1,5);
+    loadJob('lumberjack',5,5);
+    loadJob('quarry_worker',5,5);
+    loadJob('scavenger',0.6,5);
+    loadJob('miner',5,4,'advanced');
+    loadJob('coal_miner',1,4,'advanced');
+    loadJob('craftsman',5,5,'advanced');
+    loadJob('cement_worker',2,5,'advanced');
+    loadJob('entertainer',5,10,'advanced');
+    loadJob('priest',5,3,'advanced');
+    loadJob('professor',3,6,'advanced');
+    loadJob('scientist',6,5,'advanced');
+    loadJob('banker',0.5,6,'advanced');
+    loadJob('colonist',5,5,'advanced');
+    loadJob('space_miner',5,5,'advanced');
+    loadJob('hell_surveyor',5,1,'advanced');
+    loadJob('crew',5,4,'alert');
     loadFoundry();
 }
 

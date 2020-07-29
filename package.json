@@ -28,6 +28,6 @@
   "homepage": "https://github.com/pmotschmann/Evolve#readme",
   "devDependencies": {
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   }
 }
