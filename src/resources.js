@@ -108,22 +108,22 @@ export const atomic_mass = {
 export function craftCost(){
     return global.race['wasteful'] 
         ? {
-            Plywood: [{ r: 'Lumber', a: 110 }],
-            Brick: [{ r: 'Cement', a: 44 }],
-            Wrought_Iron: [{ r: 'Iron', a: 88 }],
-            Sheet_Metal: [{ r: 'Aluminium', a: 132 }],
-            Mythril: [{ r: 'Iridium', a: 110 },{ r: 'Alloy', a: 275 }],
-            Aerogel: [{ r: 'Graphene', a: 2750 },{ r: 'Infernite', a: 55 }],
-            Nanoweave: [{ r: 'Nano_Tube', a: 1100 },{ r: 'Vitreloy', a: 44 }],
+            Plywood: [{ r: 'Lumber', a: 11 }],
+            Brick: [{ r: 'Cement', a: 4 }],
+            Wrought_Iron: [{ r: 'Iron', a: 8 }],
+            Sheet_Metal: [{ r: 'Aluminium', a: 13 }],
+            Mythril: [{ r: 'Iridium', a: 11 },{ r: 'Alloy', a: 27 }],
+            Aerogel: [{ r: 'Graphene', a: 275 },{ r: 'Infernite', a: 5 }],
+            Nanoweave: [{ r: 'Nano_Tube', a: 110 },{ r: 'Vitreloy', a: 4 }],
         }
         : {
-            Plywood: [{ r: 'Lumber', a: 100 }],
-            Brick: [{ r: 'Cement', a: 40 }],
-            Wrought_Iron: [{ r: 'Iron', a: 80 }],
-            Sheet_Metal: [{ r: 'Aluminium', a: 120 }],
-            Mythril: [{ r: 'Iridium', a: 100 },{ r: 'Alloy', a: 250 }],
-            Aerogel: [{ r: 'Graphene', a: 2500 },{ r: 'Infernite', a: 50 }],
-            Nanoweave: [{ r: 'Nano_Tube', a: 1000 },{ r: 'Vitreloy', a: 40 }],
+            Plywood: [{ r: 'Lumber', a: 10 }],
+            Brick: [{ r: 'Cement', a: 4 }],
+            Wrought_Iron: [{ r: 'Iron', a: 8 }],
+            Sheet_Metal: [{ r: 'Aluminium', a: 12 }],
+            Mythril: [{ r: 'Iridium', a: 10 },{ r: 'Alloy', a: 25 }],
+            Aerogel: [{ r: 'Graphene', a: 250 },{ r: 'Infernite', a: 5 }],
+            Nanoweave: [{ r: 'Nano_Tube', a: 100 },{ r: 'Vitreloy', a: 4 }],
         };
 }
 
